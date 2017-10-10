@@ -7,16 +7,29 @@ image(face, 0, 0);
 }
 void draw() {
   if(mousePressed){
-  print(mouseX, mouseY);}
+  print(mouseX, mouseY + " ");}
   fill(28,198,14);
   ellipse(357, 460, 150, 50);
    ellipse(638, 457, 150,50);
-   if(mousePressed){
-     print(mouseX);
+   fill(114,118,4);
+    fill(mouseX, mouseY);
+    ellipse(357,460,50,50);
+    ellipse(638,457,50,50);
+      
+    
+    
+    
 
+      
 
+    }
+     
+      
+      
+      
+      
+    
+   
   
-   }
   
   
-}
